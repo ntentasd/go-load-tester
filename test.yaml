@@ -1,0 +1,6 @@
+host: "192.168.1.1"
+load_tests:
+  - method: get
+    endpoint: /
+  - method: post
+    endpoint: /users/create
